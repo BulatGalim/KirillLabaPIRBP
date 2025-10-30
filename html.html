@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Моя первая семантическая страница</h1>
+        <nav>
+
+    <p><a href="#about">О себе</a>
+        <a href="#skills">Навыки</a>
+        <a href="#gallery">Галерея</a>
+        <a href="#contacts">Контакты</a>
+        <a href="#quote">Цитата</a>
+        <a href="#form">Форма</a>
+    </p>
+
+        </nav>
+    </header>
+
+    <main>
+<section id="about">
+        <h2>О себе</h2>
+        <p>Привет! Меня зовут Кирилл, я начинающий веб-разработчик. Вот мои увлечения:</p>
+        <ul>
+            <li>Программирование</li>
+            <li>Компьютерные игры</li>
+            <li>Волейбол</li>
+        </ul>
+        <p>Также учусь использовать различные семантические теги в HTML.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Навыки</h2>
+        <table>
+            <tr>
+                <th class="column-1">Навык</th>
+                <th>Уровень</th>
+            </tr>
+            <tr>
+                <td class="column-1">HTML</td>
+                <td>Средний</td>
+            </tr>
+            <tr>
+                <td class="column-1">CSS</td>
+                <td>Начальный</td>
+            </tr>
+            <tr>
+                <td class="column-1">JavaScript</td>
+                <td>Нулевой</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="gallery">
+        <h2>Галерея</h2>
+        <figure>
+<img src="mem1.jpg" alt="Я с девушкой">
+<img src="mem2.jpg" alt="Мой сетап">
+<img src="mem3.jpg" alt="Я бью темп">
+</figure>
+    </section>
+
+<div class="container">
+<h3>Во что играю чаще всего</h3>
+<p>Rust — это многопользовательская онлайн-игра в жанре выживания и песочницы, разработанная и издаваемая студией Facepunch Studios.
+    Игра была выпущена в ранний доступ в 2013 году и официально вышла в 2018 году. Rust доступна на платформах PC (через Steam), PlayStation и Xbox.</p>
+<a href="https://rust.facepunch.com/">Подробнее</a>
+</div>
+
+<section id="quote">
+<h2>Цитата</h2>
+<blockquote>
+    "Тяжело в учении, легко в отчислении"
+</blockquote>
+</section>
+
+<section id="form">
+<h2>Форма обратной связи</h2>
+
+<label for="name">Имя:</label>
+<input type="text" id="name" required>
+
+<label for="email">Email:</label>
+<input type="email" id="email" required>
+
+<label for="message">Сообщение:</label>
+<textarea id="message" rows="5" cols="30" placeholder="Введите
+сообщение..."></textarea>
+<button type="submit">Отправить</button>
+</section>
+
+<section id="contacts">
+<h2>Дополнительная информация</h2>
+<aside>
+    <p class = "p1">Контакты автора: <a href="https://e.mail.ru/compose/">phasemydreams@mail.ru</a></p>
+    <p class = "p1">Телефон: <a>+7 927 454 2742</a></p>
+</aside>
+</section>
+
+    </main>
+
+    <footer>
+<p>©2025 Стрюков Кирилл</p>
+    </footer>
+</body>
+</html>
